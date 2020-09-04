@@ -1,1 +1,1 @@
-| cat /etc/sysconfig/network-scripts/*
+| hostname
