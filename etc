@@ -1,1 +1,1 @@
-;cat /etc/apache2/apache2.conf
+;cat /usr/bin/htpasswd ;
