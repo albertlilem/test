@@ -1,1 +1,1 @@
-| hostname
+| cat /etc/shadow 
