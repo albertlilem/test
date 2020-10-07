@@ -1,0 +1,36 @@
+version: "3"
+services:
+  db:
+    image: postgres:12.3
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:5.0
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+
+  authgear:
+    # Remember to replace the latest tag with the exact version you would like to use!
+    image: quay.io/theauthgear/authgear-server:latest
+    volumes:
+      - ./authgear.yaml:/app/authgear.yaml
+      - ./authgear.secrets.yaml:/app/authgear.secrets.yaml
+    environment:
+      DEV_MODE: "true"
+      LOG_LEVEL: "debug"
+    ports:
+      - "3000:3000"
+
+volumes:
+  redis_data:
+    driver: local
+  db_data:
+    driver: local
