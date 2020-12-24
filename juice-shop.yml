@@ -5,3 +5,7 @@ services:
     image: bkimminich/juice-shop
     ports:
       - "3000:3000"
+  sqlilab:
+    image: acgpiano/sqli-labs
+    ports:
+      - "80:80"
