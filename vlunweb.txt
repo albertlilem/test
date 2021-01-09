@@ -1,0 +1,10 @@
+CVS
+admin
+cgi-bin
+cgi-bin/
+favicon.ico
+images
+pictures
+secured
+Entries
+Root
